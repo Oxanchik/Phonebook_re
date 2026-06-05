@@ -16,7 +16,7 @@ phone_pattern = re.compile(
     r"(\d{3})[\s-]*"
     r"(\d{2})[\s-]*"
     r"(\d{2})"
-    r"(?:[\s]*(?:доб\.?|ext\.?)\s*(\d+))?"
+    r"(?:\s*\(?\s*(?:доб\.?|ext\.?)\s*(\d+)\s*\)?)?"
 )
 
 for contact in contacts_list[1:]:
